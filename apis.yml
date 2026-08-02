@@ -1,24 +1,82 @@
 aid: until
 name: Until
-description: 'Until is a company surfaced as a portfolio company of founders-fund and added to the API
-  Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  Until (Until Labs) is a biotechnology company building the medical
+  infrastructure to pause biological time. It is developing reversible
+  cryopreservation systems for human organs, starting with organ-scale
+  reversible cryopreservation to solve the donor-organ procurement and matching
+  problem, and methodically scaling toward whole-body preservation. The lab
+  translates the fundamentals of cryobiology into engineered workflows across
+  five dimensions — perfusion, cryoprotectants, cooling, rewarming, and organ
+  health assessment — using vitrification (glass, not ice) to prevent ice
+  formation during preservation and safe rewarming. Founded by Laura Deming and
+  Hunter Davis, Until has raised $100M+ to date and is backed by Founders Fund.
+  Until is a research-and-development company with no public API surface; this
+  profile captures its identity and public web properties for the API Evangelist
+  network.
 url: https://raw.githubusercontent.com/api-evangelist/until/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://raw.githubusercontent.com/api-evangelist/until/refs/heads/main/until-logo.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - founders-fund
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profiled
+x-tier-reason: no-api-surface
+x-website: https://www.untillabs.com/
+x-founders:
+- Laura Deming
+- Hunter Davis
+x-industry: Biotechnology / Health
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-- Unknown
+- Biotechnology
+- Health
+- Cryopreservation
+- Cryobiology
+- Organ Preservation
+- Medical Infrastructure
+- Research
 apis: []
+common:
+- type: Website
+  url: https://www.untillabs.com/
+- type: Blog
+  url: https://www.untillabs.com/blog
+- type: Support
+  url: https://www.untillabs.com/contact
+- type: GitHubOrganization
+  url: https://github.com/until-labs
+- type: Roadmap
+  url: https://www.untillabs.com/roadmap
+- type: LinkedIn
+  url: https://www.linkedin.com/company/untillabs
+- type: Twitter
+  url: https://x.com/untillabs
+- type: Careers
+  url: https://www.untillabs.com/careers
+- type: FAQ
+  url: https://www.untillabs.com/faq
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
