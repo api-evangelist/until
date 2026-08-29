@@ -15,6 +15,9 @@ description: >-
   profile captures its identity and public web properties for the API Evangelist
   network.
 url: https://raw.githubusercontent.com/api-evangelist/until/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "Until is a research-and-development company with no public API surface; this profile captures its identity and public web properties for the API Evangelist network."
 deliveryModel:
   model: unknown
   open_source: false
