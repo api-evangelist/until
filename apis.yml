@@ -66,6 +66,10 @@ tags:
 - Research
 apis: []
 common:
+- type: DomainSecurity
+  url: security/until-domain-security.yml
+- type: About
+  url: https://www.untillabs.com/science-technology
 - type: Website
   url: https://www.untillabs.com/
 - type: Blog
